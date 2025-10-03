@@ -35,3 +35,9 @@ Basic CRUD operations (Create, Read, Update, Delete).
 
 ### Server Time App
 The Server Time web application is a simple ASP.NET Core MVC project that displays the current server time in the browser. It uses a controller (HomeController) to fetch the system’s DateTime.Now value and passes it to a Razor view (Index.cshtml) for display. The element in the view is customized with user-defined text, making the app both functional and personalized. This project demonstrates the basics of ASP.NET Core MVC, including controllers, views, Razor syntax, and dynamic data rendering.
+
+### Code First Demo App
+The Code-First demo is a simple console application that demonstrates how to create a database using Entity Framework Code-First. In this approach, the database is generated from C# classes rather than designing the database first. The demo defines a Student class to represent the data model and a SchoolContext class to manage the database connection. When the application runs, Entity Framework automatically creates a database called SchoolDB, generates a Students table, and inserts a sample student record. This shows how developers can start with code, and let Entity Framework build and manage the database structure.
+
+### Shipping Quote 
+The Shipping Quote app is a simple MVC application that calculates shipping costs based on user input such as package weight, dimensions, and destination. The application uses controllers to handle the logic, models to represent the data, and views to display results to the user. It demonstrates how MVC architecture can be used to process user input, apply business rules, and return a dynamically calculated shipping quote.
