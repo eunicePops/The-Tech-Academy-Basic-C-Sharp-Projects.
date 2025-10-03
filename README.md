@@ -1,10 +1,37 @@
-C# Projects
+# C# Projects
 
 Listed below are some of the projects I made with C# and .NET Framework
 
-Projects: 
+## Projects: 
 
-[Car Insurance](https://github.com/eunicePops/CarInsuranceASP.NET-MVC-FRAMEWORK-)
-[Server Time App](https://github.com/eunicePops/ServerTimeApp)
-[CodeFirstDemo](http://github.com/eunicePops/CodeFirstDemo)
-[ShippingQuote](https://github.com/eunicePops/ShippingQuote)
+* [Car Insurance](https://github.com/eunicePops/CarInsuranceASP.NET-MVC-FRAMEWORK-)
+* [Server Time App](https://github.com/eunicePops/ServerTimeApp)
+* [CodeFirstDemo](http://github.com/eunicePops/CodeFirstDemo)
+* [ShippingQuote](https://github.com/eunicePops/ShippingQuote)
+
+### Car Insurance 
+
+The Car Insurance web application is an ASP.NET MVC project designed to manage user insurance data and calculate insurance quotes automatically. The application uses Entity Framework to interact with a SQL database (Insurance.mdf) that stores customer information such as name, age, car details, and driving history.
+
+The project follows the MVC architecture:
+
+Models define the data structure (Insuree class).
+
+Controllers (like InsureeController) contain the logic for handling user input and performing operations such as calculating quotes.
+
+Views provide user interfaces for creating, editing, viewing, and deleting records.
+
+A key feature of the application is the Quote Calculator, which determines an insurance quote based on user inputs. The application also supports features like a Quote Summary view, where administrators can view total, highest, lowest, and average quotes.
+
+This project demonstrates the use of:
+
+ASP.NET MVC for structured web development.
+
+Entity Framework (Database-First or Code-First) for database access.
+
+Razor views for dynamic rendering.
+
+Basic CRUD operations (Create, Read, Update, Delete).
+
+### Server Time App
+The Server Time web application is a simple ASP.NET Core MVC project that displays the current server time in the browser. It uses a controller (HomeController) to fetch the system’s DateTime.Now value and passes it to a Razor view (Index.cshtml) for display. The element in the view is customized with user-defined text, making the app both functional and personalized. This project demonstrates the basics of ASP.NET Core MVC, including controllers, views, Razor syntax, and dynamic data rendering.
